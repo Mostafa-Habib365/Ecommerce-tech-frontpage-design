@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSphere - Modern E-Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <i class="fas fa-shopping-bag"></i>
+                ShopSphere
+            </a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <div class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">3</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Amazing Products</h1>
+            <p>Shop the latest trends in fashion, electronics, and more with exclusive deals and fast delivery.</p>
+            <div class="hero-btns">
+                <a href="#" class="btn">Shop Now</a>
+                <a href="#" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="section">
+        <div class="section-title">
+            <h2>Featured Products</h2>
+        </div>
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <span class="product-badge new">New</span>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        alt="Smart Watch">
+                    <div class="product-actions">
+                        <div class="action-btn"><i class="fas fa-heart"></i></div>
+                        <div class="action-btn"><i class="fas fa-eye"></i></div>
+                        <div class="action-btn"><i class="fas fa-shopping-cart"></i></div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Electronics</span>
+                    <h3 class="product-title">Smart Watch Pro X</h3>
+                    <div class="product-price">
+                        <span class="current-price">$199.99</span>
+                        <span class="old-price">$249.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <span class="product-badge sale">Sale</span>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        alt="Wireless Headphones">
+                    <div class="product-actions">
+                        <div class="action-btn"><i class="fas fa-heart"></i></div>
+                        <div class="action-btn"><i class="fas fa-eye"></i></div>
+                        <div class="action-btn"><i class="fas fa-shopping-cart"></i></div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Audio</span>
+                    <h3 class="product-title">Wireless Noise Cancelling Headphones</h3>
+                    <div class="product-price">
+                        <span class="current-price">$149.99</span>
+                        <span class="old-price">$179.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        alt="Running Shoes">
+                    <div class="product-actions">
+                        <div class="action-btn"><i class="fas fa-heart"></i></div>
+                        <div class="action-btn"><i class="fas fa-eye"></i></div>
+                        <div class="action-btn"><i class="fas fa-shopping-cart"></i></div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Footwear</span>
+                    <h3 class="product-title">Premium Running Shoes</h3>
+                    <div class="product-price">
+                        <span class="current-price">$89.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <span class="product-badge">Popular</span>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        alt="Bluetooth Speaker">
+                    <div class="product-actions">
+                        <div class="action-btn"><i class="fas fa-heart"></i></div>
+                        <div class="action-btn"><i class="fas fa-eye"></i></div>
+                        <div class="action-btn"><i class="fas fa-shopping-cart"></i></div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Audio</span>
+                    <h3 class="product-title">Portable Bluetooth Speaker</h3>
+                    <div class="product-price">
+                        <span class="current-price">$59.99</span>
+                        <span class="old-price">$79.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section categories">
+        <div class="section-title">
+            <h2>Shop by Category</h2>
+        </div>
+        <div class="categories-grid">
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                    alt="Electronics">
+                <div class="category-overlay">
+                    <h3 class="category-title">Electronics</h3>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                    alt="Fashion">
+                <div class="category-overlay">
+                    <h3 class="category-title">Fashion</h3>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                    alt="Home & Garden">
+                <div class="category-overlay">
+                    <h3 class="category-title">Home & Garden</h3>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1546054454-aa26e2b734c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                    alt="Beauty">
+                <div class="category-overlay">
+                    <h3 class="category-title">Beauty</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="section-title">
+            <h2>What Our Customers Say</h2>
+        </div>
+        <div class="testimonial-slider">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-slide active">
+                <p class="testimonial-text">
+                    "I've been shopping here for years and the quality of products never disappoints. The customer
+                    service is exceptional and delivery is always on time. Highly recommend!"
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-img initials">س</div>
+                    <div class="author-info">
+                        <h4>سارة الأحمد</h4>
+                        <p>Verified Customer</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-slide">
+                <p class="testimonial-text">
+                    "The selection of products is amazing and prices are very competitive. I recently bought a
+                    smartwatch and it's been working perfectly. Will definitely shop here again!"
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-img initials">M</div>
+                    <div class="author-info">
+                        <h4>Mohamed Hassan</h4>
+                        <p>Verified Customer</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-slide">
+                <p class="testimonial-text">
+                    "I love how easy it is to navigate the website and find what I'm looking for. The return process was
+                    hassle-free when I needed to exchange an item. 5 stars!"
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-img initials">D</div>
+                    <div class="author-info">
+                        <h4>Dalia Ali</h4>
+                        <p>Verified Customer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-dots">
+            <div class="dot active" data-slide="0"></div>
+            <div class="dot" data-slide="1"></div>
+            <div class="dot" data-slide="2"></div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest updates on new products, special offers, and exclusive deals straight to your inbox.</p>
+        <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required>
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>ShopSphere</h3>
+                <p>Your one-stop destination for all your shopping needs. We offer high-quality products at competitive
+                    prices with excellent customer service.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Customer Service</h3>
+                <ul class="footer-links">
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, New York, NY 10001</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> info@shopsphere.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 ShopSphere. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
